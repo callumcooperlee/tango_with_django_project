@@ -22,7 +22,6 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('rango/about/', views.about, name='about'),
     path('rango/', include('rango.urls')),
     #======================================
     path('admin/', admin.site.urls),
