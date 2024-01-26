@@ -26,4 +26,4 @@ def show_category(request, category_name_slug):
         context_dict['pages'] = None
         context_dict['category'] = None
 
-    return render(render, 'rango/category.html', context=context_dict)
+    return render(request, 'rango/category.html', context=context_dict)
